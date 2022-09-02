@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+.formatoFormularioCentral, .formatoFormularioCentral2 {
+  display: flex;
+  justify-content: center; }
+
+.formatoFormularioCentral2 {
+  height: 200px; }
+
+/* HEADER*/
+header {
+  /*position: sticky;
+    top: 0;
+    z-index: 2;*/
+  border: 4px black solid;
+  background: radial-gradient(#a19484, black);
+  display: flex;
+  justify-content: center; }
+
+/*----NAVBAR----*/
+nav {
+  background-color: gray;
+  border: 1px black solid; }
+  nav .imagenLogo {
+    width: 25px;
+    height: 25px; }
+
+/*----BODY----*/
+body {
+  background-color: #2c2a26;
+  font-family: 'Oswald', sans-serif; }
+
+.letraMain {
+  color: aliceblue;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.itemsMain {
+  display: flex;
+  justify-content: center; }
+
+/*Tablero pantalla principal*/
+.imagenCentral {
+  width: 70%;
+  height: 50%; }
+
+.formatoImagenCentral {
+  display: flex;
+  justify-content: center; }
+
+/*Boton de juego*/
+.formaBoton {
+  background-color: green;
+  font-family: 'Times New Roman', Times, serif;
+  color: beige;
+  border: 2px solid black;
+  border-radius: 15px; }
+
+.formaBoton:hover {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border: 2px solid black;
+  border-radius: 15px; }
+
+.lugarBoton {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.partidaDeAjedrez {
+  height: 550px;
+  width: 550px; }
+
+.lugarPartida {
+  display: flex;
+  justify-content: center; }
+
+/*Seccion Cursos*/
+.tituloCursos {
+  color: whitesmoke;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center; }
+
+.nivelesCurso1 {
+  height: 35px;
+  border: bisque solid 4px;
+  background: linear-gradient(#a19484, black); }
+
+.nivelesCurso2 {
+  height: 35px;
+  border: bisque solid 4px;
+  background: radial-gradient(black, #a19484); }
+
+.nivelesCurso3 {
+  height: 35px;
+  border: bisque solid 4px;
+  background: linear-gradient(black, #a19484); }
+
+.fondoTarjetas {
+  background-color: #2c2a26; }
+
+.tarjetaPrueba {
+  text-transform: uppercase;
+  text-decoration: underline;
+  display: flex;
+  justify-content: flex-start; }
+
+.prueba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/*----TIENDA----*/
+.carrouselPrueba {
+  width: 500px;
+  height: 500px; }
+
+/*CONTACTO*/
+.formularioTitulo {
+  color: whitesmoke;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center; }
+
+.formularioForma {
+  border: solid white 5px;
+  background-color: #837b72;
+  margin: 30px 90px 30px 90px;
+  padding: 30px 90px 30px 90px; }
+
+.botonesFormulario {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px; }
+
+.botonEnvio {
+  margin-right: 5px; }
+
+.botonBorrado {
+  margin-left: 5px; }
+
+.imagenRey {
+  width: 40px;
+  height: 50px; }
+
+/*----FOOTER----*/
+.logosFooter {
+  width: 40px;
+  height: 40px;
+  padding: 1.5px 2.5px 1.5px 2.5px; }
+
+.itemsFooter {
+  display: flex;
+  justify-content: flex-end; }
+
+@media (max-width: 750px) {
+  .partidaDeAjedrez {
+    width: 350px;
+    height: 350px; } }
+
+@media (max-width: 380px) {
+  .partidaDeAjedrez {
+    width: 200px;
+    height: 200px; } }
+
+@media (max-width: 750px) {
+  .carrouselPrueba {
+    width: 350px;
+    height: 350px; } }
+
+@media (max-width: 380px) {
+  .carrouselPrueba {
+    width: 200px;
+    height: 200px; } }
+
+@media (max-width: 450px) {
+  .botonesFormulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; } }

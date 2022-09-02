@@ -1,0 +1,11 @@
+.formatoFormularioCentral {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formatoFormularioCentral2{
+    @extend .formatoFormularioCentral;
+    height: 200px;
+
+}
